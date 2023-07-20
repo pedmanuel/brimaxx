@@ -1,0 +1,3 @@
+[submodule "myserver"]
+	path = myserver
+	url = https://github.com/pedmanuel/lordbless.git
