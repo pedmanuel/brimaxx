@@ -59,7 +59,7 @@ className="mx-auto form-control  "
 
                     <Link class="dropdown-item text-dark" to="/admin/product">  P u b l i c a r  </Link>
 
-                    <Link class="dropdown-item text-dark" to="/admin/dashboard">  N o t i c i a s  </Link>
+                    <Link class="dropdown-item text-dark" to="/admin/dashboard">  P r o d u t o s   </Link>
                </div>
 
    

@@ -12,7 +12,7 @@ import Footer from "../../components/nav/Footer";
 
 const Login = ({ history }) => {
   const [email, setEmail] = useState("altitech.angola@gmail.com");
-  const [password, setPassword] = useState("918apoio");
+  const [password, setPassword] = useState("00000000");
   const [loading, setLoading] = useState(false);
   const [flutuando, setFlutuando] = useState(true);
 

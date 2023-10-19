@@ -1,3 +1,3 @@
-[submodule "brimax"]
-	path = brimax
-	url = https://github.com/pedmanuel/brimaxx.git
+[submodule "myserver"]
+	path = myserver
+	url = https://github.com/pedmanuel/lordbless.git

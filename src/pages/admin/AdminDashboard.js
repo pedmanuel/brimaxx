@@ -163,7 +163,7 @@ const passwordUpdateForm =()=> (
                         <div  
                               style={{background:"", color:"#26004d"}}  
                               className="   mx-auto  mb-3 text-center "> 
-                                   <h4 className="md-2 ">   N o t í c i a s    </h4>  
+                                   <h4 className="md-2 ">   P r o d u t o s    </h4>  
                          </div> 
                         )} 
                        
