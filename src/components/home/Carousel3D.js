@@ -8,7 +8,7 @@ const Carousel3D = () => {
     {
       id: 1,
       title: 'BRIMAX - ANGOLA',
-      image: '/siteimages/BRIMAX - Frente a Pumangol do 28 Lobito.JPG',
+      image: '/BRIMAX - Frente a Pumangol do 28 Lobito.JPG',
     },
     {
       id: 2,
