@@ -23,7 +23,12 @@ const Carousel3D = () => {
     {
       id: 4,
       title: 'BRIMAX - Venda de Materiais de Construção',
-      image: '/BRIMAX -.JPG',
+      image: '/BRIMAX - Venda de Materiais de Construção.JPG',
+    },
+    {
+      id: 5,
+      title: 'BRIMAX - Venda de Materiais de Construção',
+      image: '/machado-cabo-bimateria-pro-600gr-flux.jpg',
     },
   ];
 
