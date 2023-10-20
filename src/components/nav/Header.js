@@ -65,7 +65,7 @@ const Header = () => {
       <a className="dropdown-item" href="#">Vedação</a>
     </div>
   </div>
-  <hr className="custom-hr" />{" "}
+  <hr className="text-warning custom-hr" />{" "}
 </li>
 
               <li className="nav-item  text-warning">

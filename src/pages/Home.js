@@ -8,7 +8,10 @@ import Carousel3D from '../components/home/Carousel3D';
 const Home = () => {
   return (   
     <>
-        <Carousel3D/>
+        <Carousel3D />
+        <div className="mt-4">
+          <br></br>
+        </div>
       <div className="container">
       
         <div className="content-wrapper">

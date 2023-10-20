@@ -27,7 +27,7 @@ const Carousel3D = () => {
     },
     
     {
-      id: 4,
+      id: 5,
       title: 'BRIMAX - Lobito Zona comercial 28',
       image: '/BRIMAX - Lobito Zona comercial 28.jpg',
     },
