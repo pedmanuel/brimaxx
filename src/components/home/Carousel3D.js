@@ -8,27 +8,28 @@ const Carousel3D = () => {
     {
       id: 1,
       title: 'BRIMAX - ANGOLA',
-      image: '/BRIMAX - Frente a Pumangol do 28 Lobito.JPG',
+      image: '/BRIMAX - Frente a Pumangol do 28 Lobito.jpg',
     },
     {
       id: 2,
       title: 'BRIMAX - Rua Principal, Saindo do 28 para Caponte',
-      image: '/BRIMAX - Rua Principal, Saindo do 28 para Caponte.JPG',
+      image: '/BRIMAX - Rua Principal, Saindo do 28 para Caponte.jpg',
     },
     {
       id: 3,
       title: 'BRIMAX - Venda de Materiais de Construção',
-      image: '/BRIMAX - Venda de Materiais de Construção.JPG',
+      image: '/BRIMAX - Venda de Materiais de Construção.jpg',
     },
     {
       id: 4,
       title: 'BRIMAX - Venda de Materiais de Construção',
-      image: '/BRIMAX - Venda de Materiais de Construção.JPG',
+      image: '/BRIMAX - Venda de Materiais de Construção.jpg',
     },
+    
     {
-      id: 5,
-      title: 'BRIMAX - Venda de Materiais de Construção',
-      image: '/machado-cabo-bimateria-pro-600gr-flux.jpg',
+      id: 4,
+      title: 'BRIMAX - Lobito Zona comercial 28',
+      image: '/BRIMAX - Lobito Zona comercial 28.jpg',
     },
   ];
 
