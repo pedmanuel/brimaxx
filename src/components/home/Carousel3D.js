@@ -13,17 +13,17 @@ const Carousel3D = () => {
     {
       id: 2,
       title: 'BRIMAX - Rua Principal, Saindo do 28 para Caponte',
-      image: '/siteimages/BRIMAX - Rua Principal, Saindo do 28 para Caponte.JPG',
+      image: '/BRIMAX - Rua Principal, Saindo do 28 para Caponte.JPG',
     },
     {
       id: 3,
       title: 'BRIMAX - Venda de Materiais de Construção',
-      image: '/siteimages/BRIMAX - Venda de Materiais de Construção.JPG',
+      image: '/BRIMAX - Venda de Materiais de Construção.JPG',
     },
     {
       id: 4,
       title: 'BRIMAX - Venda de Materiais de Construção',
-      image: '/siteimages/BRIMAX -.JPG',
+      image: '/BRIMAX -.JPG',
     },
   ];
 
