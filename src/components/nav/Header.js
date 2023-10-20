@@ -69,32 +69,32 @@ const Header = () => {
 </li>
 
               <li className="nav-item  text-warning">
-                <a className="nav-a  text-warning " href="/negocios">
+                <a className="nav-a  text-warning " href="/">
                   Promoções
                 </a>{" "}
                 <hr className="custom-hr" />{" "}
               </li>
               <li className="nav-item  text-warning">
-                <a className="nav-a  text-warning " href="/pais">
+                <a className="nav-a  text-warning " href="/">
                   Parcerias
                 </a>{" "}
                 <hr className="custom-hr" />{" "}
               </li>
               <li className="nav-item  text-warning">
-                <a className="nav-a  text-warning  " href="/saude">
+                <a className="nav-a  text-warning  " href="/">
                   Contacto
                 </a>{" "}
                 <hr className="custom-hr" />{" "}
               </li>
               <li className="nav-item  text-warning">
-                <a className="nav-a  text-warning " href="/opiniao">
+                <a className="nav-a  text-warning " href="/">
                   Sobre Nós
                 </a>{" "}
                 <hr className="custom-hr" />{" "}
               </li>
               <li className="nav-item  text-warning">
                 {" "}
-                <a className="nav-a  text-warning " href="/estilodevida">
+                <a className="nav-a  text-warning " href="/">
                   Midias
                 </a>{" "}
                 <hr className="custom-hr" />{" "}
@@ -169,7 +169,7 @@ const Header = () => {
                 <a href="/mundo"></a>
               </li>
               <li>
-                <a className="text-warning" href="/mundo">
+                <a className="text-warning" href="/">
                   Home
                 </a>
               </li>
@@ -200,18 +200,18 @@ const Header = () => {
 </li>
 
               <li>
-                <a className="text-warning" href="/home">
+                <a className="text-warning" href="/">
                   Contacto
                 </a>
               </li>
               <li>
-                <a className="text-warning" href="/negocios">
+                <a className="text-warning" href="/">
                   Promoções
                 </a>
               </li>
               <li>
                 {" "}
-                <a className="text-warning" href="/desporto">
+                <a className="text-warning" href="/">
                   Sobre...
                 </a>{" "}
               </li>
