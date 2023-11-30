@@ -2,5 +2,6 @@
 	path = myserver
 	url = https://github.com/pedmanuel/lordbless.git
 
-path "brimax"
-url https://github.com/pedromanuelf/brimax.git
+[submodule "brimax"]	
+path = "brimax"
+url = https://github.com/pedromanuelf/brimax.git
