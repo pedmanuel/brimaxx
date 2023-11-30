@@ -469,7 +469,8 @@ ul.list-unstyled li a {
 
 /* Estilo para fixar o carrossel em cima */
 .carrossel {
-  position: relative;
+  
+  z-index: 9;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -480,6 +481,8 @@ ul.list-unstyled li a {
   align-items: center;
   height: 100vh; /* Isso irá centralizar o carrossel verticalmente na tela inteira */
 }
+
+
 
 /* Estilo para centralizar verticalmente o título dentro do Carousel.Caption */
 .custom-carousel .carousel-caption {
