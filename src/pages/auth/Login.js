@@ -195,7 +195,7 @@ const Login = ({ history }) => {
 
         <div className="signup-link mt-2">
         <span className="mt-4">
-          Novo no RadSul? <a href="/register">Registe-se agora</a>
+          Novo na Brimax ? <a href="/register">Registe-se agora</a>
         </span>
       </div>                  
 </form>

@@ -7,21 +7,31 @@ import Carousel3D from '../components/home/Carousel3D';
 
 const Home = () => {
   return (   
-    <><Carousel3D />
-        
-      <div className="container">
-      
+    <>  
+      <div className="">
+        <Carousel3D />
         <div className="content-wrapper">
-          
+       
           <div className="main-content"  style={{ textAlign: "center" }}>
             {/* Área de Destaque */}
             {/* Seu conteúdo principal aqui */}
-            <h2 className='' style={{ display: "inline-block" }} >Ferramentas</h2>
+            <h2 className='containerA' style={{ display: "inline-block" }} > </h2>
                <BestSeller />
             <h2 className='' style={{ display: "inline-block" }} >Maquinas e Equipamentos</h2>
                  <NewArrivals />
+                 <h2 className='' style={{ display: "inline-block" }} >Ferramentas</h2>
+               <BestSeller />
+            <h2 className='' style={{ display: "inline-block" }} >Maquinas e Equipamentos</h2>
+                 <NewArrivals />
+                 <h2 className='' style={{ display: "inline-block" }} >Maquinas e Equipamentos</h2>
+                 <NewArrivals />
+                 <h2 className='' style={{ display: "inline-block" }} >Ferramentas</h2>
+               <BestSeller /> 
+            <h2 className='' style={{ display: "inline-block" }} >Maquinas e Equipamentos</h2>
+                 <NewArrivals />
           </div>
-          <div className="sidebar" style={{ marginTop: "30px" }}>
+
+          <div className="sidebar" style={{ marginTop: "88px" }}>
             {/* Barra lateral com as últimas notícias */}
             <h2 className='bordarleft'>Materiais Agro</h2>
             <NewArrivals mapAsNews={true} />

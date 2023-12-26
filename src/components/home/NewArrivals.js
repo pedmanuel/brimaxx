@@ -33,7 +33,7 @@ const NewArrivals = ({ mapAsNews }) => {
   };
 
   return (
-    <div className={`news-card-grid ${mapAsNews ? 'news-card-layout' : 'row'}`}>
+    <div className={`news-card-grid ${mapAsNews ? 'news-card-layout' : 'row'}`} containerA >
       {loading ? (
         <LoadingCard count={6} />
       ) : (

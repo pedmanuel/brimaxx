@@ -34,7 +34,7 @@ const Carousel3D = () => {
   ];
 
   return (
-    <div className="carrossel ">
+    <div className=" ">
       <div className="row">
         <div className="col-12">
           <Carousel className="custom-carousel"> {/* Adicione a classe personalizada */}

@@ -19,19 +19,19 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-3">
             <h5 
-              style={{ color:"#ffcc00" }}
+              style={{ color:"#09ff00" }}
              
             >Contato</h5>
             <p>
               Endereço: Benguela, Lobito, Zona Comercial do 28
             </p>
-            <p> Email: geral@brimax-angola.com </p>
+            <p> Email: comercial@brimax-angola.com </p>
             <p>Telefone: +244 927 91 72 61</p>
           </div>
 
           <div className="col-md-3">
             <h5
-            style={{ color: "#ffcc00" }}
+            style={{ color:"#09ff00" }}
             >Sobre nós</h5>
             <p>
               Somos uma empresa angolana de vendas de materiais de construção  e 
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
 
           <div className="col-md-3">
-            <h5 style={{ color: "#ffcc00" }} >Siga-nos</h5>
+            <h5 style={{ color:"#09ff00" }} >Siga-nos</h5>
             <ul className="list-unstyled">
               <li>
                 <a href="https://www.instagram.com/altitech_angola/" target="_blank" rel="noopener noreferrer ">
@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
 
           <div className="col-md-3">
-            <h5 style={{ color: "#ffcc00" }} >Links úteis</h5>
+            <h5 style={{ color:"#09ff00" }} >Links úteis</h5>
             <ul className="list-unstyled">
               <li>
                 <Link to="/faq" style={{ color: "white" }}>
