@@ -537,3 +537,14 @@ ul.list-unstyled li a {
 .menu-content .dropdown-item:hover {
   background-color: rgba(22, 1, 18, 0.178); /* Cor de fundo com transparência */
 }
+
+.btn-outline-primary {
+  color: #007bff;
+  border-color: #000; /* Adiciona borda preta */
+}
+
+.btn-outline-primary:hover {
+  color: #fff; /* Muda a cor do texto no hover */
+  background-color: #000; /* Muda a cor de fundo no hover */
+  border-color: #000; /* Muda a cor da borda no hover */
+}

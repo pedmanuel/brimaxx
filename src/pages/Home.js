@@ -2,45 +2,58 @@ import React from 'react';
 import Footer from '../components/nav/Footer';
 import NewArrivals from '../components/home/NewArrivals';
 import BestSeller from '../components/home/BestSeller';
+import CategoryList from '../components/category/CategoryList';
 import LatestProduct from '../components/home/LatestProduct';
 import Carousel3D from '../components/home/Carousel3D';
 
 const Home = () => {
   return (   
     <>  
-      <div className="">
+      <div className="container-fluid">
         <Carousel3D />
-        <div className="content-wrapper">
-       
-          <div className="main-content"  style={{ textAlign: "center" }}>
-            {/* Área de Destaque */}
-            {/* Seu conteúdo principal aqui */}
-            <h2 className='containerA' style={{ display: "inline-block" }} > </h2>
-               <BestSeller />
-            <h2 className='' style={{ display: "inline-block" }} >Maquinas e Equipamentos</h2>
-                 <NewArrivals />
-                 <h2 className='' style={{ display: "inline-block" }} >Ferramentas</h2>
-               <BestSeller />
-            <h2 className='' style={{ display: "inline-block" }} >Maquinas e Equipamentos</h2>
-                 <NewArrivals />
-                 <h2 className='' style={{ display: "inline-block" }} >Maquinas e Equipamentos</h2>
-                 <NewArrivals />
-                 <h2 className='' style={{ display: "inline-block" }} >Ferramentas</h2>
-               <BestSeller /> 
-            <h2 className='' style={{ display: "inline-block" }} >Maquinas e Equipamentos</h2>
-                 <NewArrivals />
+        
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-9">
+              <div className="mt-5">
+              <h2 className="text-center mb-4" style={{ backgroundColor: 'rgb(71, 228, 24)', padding: '0,5px',  color: 'white' }}>Novos Produtos</h2>
+                <NewArrivals />
+                <NewArrivals />
+              </div>
+              <div className="mt-5">
+                <h2 className="mb-4">Maquinas e Equipamentos</h2>
+                <BestSeller />
+              </div>
+            </div>
+            
+            <div className="col-lg-3">
+              <div className="mt-5">
+                <h2 className="bordarleft mb-4">Materiais Agro</h2>
+                <NewArrivals mapAsNews={true} />
+              </div>
+              <div className="mt-5">
+                <h2 className="bordarleft mb-4">Ferragens</h2>
+                <BestSeller mapAsNews={true} />
+              </div>
+            </div>
           </div>
-
-          <div className="sidebar" style={{ marginTop: "88px" }}>
-            {/* Barra lateral com as últimas notícias */}
-            <h2 className='bordarleft'>Materiais Agro</h2>
-            <NewArrivals mapAsNews={true} />
-            <h2 className='bordarleft'>Ferragens</h2>
-            <BestSeller mapAsNews={true} />
-          </div>
-          
         </div>
+        
+        <div className="container">
+          <div className="row mt-5">
+            <div className="col-lg-12">
+              <h2 className="text-center">Categorias</h2>
+            </div>
+          </div>
+          <div className="row mt-3">
+            <div className="col-lg-12">
+              <CategoryList />
+            </div>
+          </div>
+        </div>
+        
       </div>
+      <br/>
       <Footer />
     </>
   );
