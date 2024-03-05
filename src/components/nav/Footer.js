@@ -25,7 +25,7 @@ const Footer = () => {
             <p>
               Endereço: Benguela, Lobito, Zona Comercial do 28
             </p>
-            <p> Email: comercial@brimax-angola.com </p>
+            <p> Email: comercial@brimax-angola.net </p>
             <p>Telefone: +244 927 91 72 61</p>
           </div>
 
@@ -44,17 +44,17 @@ const Footer = () => {
             <h5 style={{ color:"#09ff00" }} >Siga-nos</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="https://www.instagram.com/altitech_angola/" target="_blank" rel="noopener noreferrer ">
+                <a href="https://www.instagram.com/brimaxangola/" target="_blank" rel="noopener noreferrer ">
                   <InstagramOutlined style={{ fontSize: "24px", color: "white" }} />
                 </a> Instagram
               </li>
               <li>
-                <a href="https://twitter.com/altitech_angola" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/brimaxangola" target="_blank" rel="noopener noreferrer">
                   <TwitterOutlined style={{ fontSize: "24px", color: "white" }} />
                 </a> Twitter
               </li>
               <li >
-                 <a href="https://www.facebook.com/altitech.angola" target="_blank" rel="noopener noreferrer">
+                 <a href="https://www.facebook.com/brimaxangola" target="_blank" rel="noopener noreferrer">
                    <FacebookOutlined clasName =" mr-2"style={{ fontSize: "24px", color: "white", borderRadius: "100%", width: "24px", height: "24px", }} />
                  </a> Facebook
               </li>
