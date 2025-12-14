@@ -94,7 +94,7 @@ const Footer = () => {
                background: "#000",
                      color: "white",
                    }}
-                     > Copyright © 2019 - 2023 BRIMAX - ANGOLA . All Rights Reserved.  </b8>  </div>
+                     > Copyright © 2023 - 2025 BRIMAX - ANGOLA . All Rights Reserved.  </b8>  </div>
                    
     </footer>
   );

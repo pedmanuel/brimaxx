@@ -1,60 +1,67 @@
-import React from 'react'
+import React from 'react';
 
-//COMPONENTES DO ANT DESIGN COMPONENTES
-import { DeleteOutlined,
-        EditOutlined,
-        MailOutlined,
-        GoogleOutlined,
-        UserOutlined, 
-        SafetyOutlined 
+// COMPONENTES DO ANT DESIGN
+import { 
+    DeleteOutlined,
+    EditOutlined,
+    MailOutlined,
+    GoogleOutlined,
+    UserOutlined, 
+    SafetyOutlined 
 } from '@ant-design/icons';
 
-//IMPORTAR COMPONENTES DO ANTD PARA SEREM USADOS COMO BTSTRP
-import { Button,
+// COMPONENTES DO ANTD PARA SEREM USADOS COMO BOOTSTRAP
+import { 
+    Button,
     Checkbox,
     Form,
-    Input,
-    label 
+    Input 
 } from 'antd';
 
-const CategoryForm = ({handleSubmit, name, setName}) =>( 
-<form onSubmit ={handleSubmit} >
-    
-        <label  
-           
-           className=" text-dark   form-control mb-3 text-center " style={{ background: "rgba(0, 0, 0, 0.1)",}} > 
-                <b>C a t e g o r i a s </b>
-        </label>
-  
-        <input
-              type="text"   
-              onChange={(e) =>setName(e.target.value)}
-              value={name}
-              //autoFocus
-              required
-              prefix={<SafetyOutlined />} 
-              className="text-primary border-dark  form-control mb-3"
-              size="large" placeholder="Nova Categoria"
-        />
-         
-      <div className='form-group col-md-5 mx-auto'>
-      <Button
-              style={{background:"black"}}
-              onClick={handleSubmit}
-              size="small"
-              shape ="round"
-              className=" text-white btn btn-primary mx-auto form-group mb-4 "
-              //disass="btn btn-info " 
-              type="Button"
-             // classabled={!name || name.length <0 || loading}
-  
-              >S a l v a r
-        </Button>
-       </div>       
-  </form>
+const CategoryForm = ({ handleSubmit, name, setName }) => (
+    <Form onSubmit={handleSubmit} layout="vertical">
+        {/* Título do Formulário */}
+        <Form.Item>
+            <label 
+                className="text-dark form-control mb-3 text-center" 
+                style={{ background: "rgba(0, 0, 0, 0.1)" }}
+            >
+                <b>C a t e g o r i a s</b>
+            </label>
+        </Form.Item>
 
+        {/* Campo de Input para Nova Categoria */}
+        <Form.Item>
+            <Input
+                type="text"
+                onChange={(e) => setName(e.target.value)}
+                value={name}
+                prefix={<SafetyOutlined />}
+                className="text-primary border-dark form-control mb-3"
+                size="large"
+                placeholder="Nova Categoria"
+                required
+                // autoFocus
+            />
+        </Form.Item>
 
-
- );
+        {/* Botão de Salvar */}
+        <Form.Item>
+            <div className="form-group col-md-5 mx-auto">
+                <Button
+                    style={{ background: "black" }}
+                    onClick={handleSubmit}
+                    size="small"
+                    shape="round"
+                    className="text-white btn btn-primary mx-auto form-group mb-4"
+                    type="button"
+                    // disabled={!name || name.length < 0 || loading}
+                >
+                    S a l v a r
+                </Button>
+            </div>
+        </Form.Item>
+    </Form>
+);
 
 export default CategoryForm;

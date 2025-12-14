@@ -42,7 +42,7 @@ const Home = () => {
         <div className="container">
           <div className="row mt-5">
             <div className="col-lg-12">
-              <h2 className="text-center">Categorias</h2>
+            <h2 className="text-center text-uppercase">🛍️ Categorias </h2>
             </div>
           </div>
           <div className="row mt-3">
